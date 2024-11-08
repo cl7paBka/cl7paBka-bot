@@ -1,6 +1,2 @@
-from aiogram import Router
-from app.handlers import start
+from app.handlers import start, shazam, ai
 
-
-def register_all_handlers(router: Router):
-    router.include_router(start.router)
